@@ -1,0 +1,398 @@
+module TigerSwift {
+    module AppKitScripting {
+        header "AppKitScripting.h"
+        export *
+    }
+    module AddressBook {
+        header "AddressBook.h"
+        export *
+    }
+    module DVComponentGlue {
+        header "DVComponentGlue.h"
+        export *
+    }
+    module CoreMIDI {
+        header "CoreMIDI.h"
+        export *
+    }
+    module AppKit {
+        header "AppKit.h"
+        export *
+    }
+    module GLUT {
+        header "GLUT.h"
+        export *
+    }
+    module DiskArbitration {
+        header "DiskArbitration.h"
+        export *
+    }
+    module ApplicationServices {
+        header "ApplicationServices.h"
+        export *
+        module SpeechSynthesis {
+            header "SpeechSynthesis.h"
+            export *
+        }
+        module ImageIO {
+            header "ImageIO.h"
+            export *
+        }
+        module AE {
+            header "AE.h"
+            export *
+        }
+        module FindByContent {
+            header "FindByContent.h"
+            export *
+        }
+        module QD {
+            header "QD.h"
+            export *
+        }
+        module LangAnalysis {
+            header "LangAnalysis.h"
+            export *
+        }
+        module ColorSync {
+            header "ColorSync.h"
+            export *
+        }
+        module HIServices {
+            header "HIServices.h"
+            export *
+        }
+        module LaunchServices {
+            header "LaunchServices.h"
+            export *
+        }
+        module PrintCore {
+            header "PrintCore.h"
+            export *
+        }
+        module ATS {
+            header "ATS.h"
+            export *
+        }
+        module CoreGraphics {
+            header "CoreGraphics.h"
+            export *
+        }
+    }
+    module JavaVM {
+        header "JavaVM.h"
+        export *
+    }
+    module DirectoryService {
+        header "DirectoryService.h"
+        export *
+    }
+    module IOBluetoothUI {
+        header "IOBluetoothUI.h"
+        export *
+    }
+    module SystemConfiguration {
+        header "SystemConfiguration.h"
+        export *
+    }
+    module OSAKit {
+        header "OSAKit.h"
+        export *
+    }
+    module AudioToolbox {
+        header "AudioToolbox.h"
+        export *
+    }
+    module IOBluetooth {
+        header "IOBluetooth.h"
+        export *
+    }
+    module AGL {
+        header "AGL.h"
+        export *
+    }
+    module ScreenSaver {
+        header "ScreenSaver.h"
+        export *
+    }
+    module Message {
+        header "Message.h"
+        export *
+    }
+    module OpenGL {
+        header "OpenGL.h"
+        export *
+    }
+    module Scripting {
+        header "Scripting.h"
+        export *
+    }
+    module InstallerPlugins {
+        header "InstallerPlugins.h"
+        export *
+    }
+    module QuartzCore {
+        header "QuartzCore.h"
+        export *
+    }
+    module Tk {
+        header "Tk.h"
+        export *
+    }
+    module PreferencePanes {
+        header "PreferencePanes.h"
+        export *
+    }
+    module Tcl {
+        header "Tcl.h"
+        export *
+    }
+    module ForceFeedback {
+        header "ForceFeedback.h"
+        export *
+    }
+    module CoreData {
+        header "CoreData.h"
+        export *
+    }
+    module ExceptionHandling {
+        header "ExceptionHandling.h"
+        export *
+    }
+    module DVDPlayback {
+        header "DVDPlayback.h"
+        export *
+    }
+    module JavaEmbedding {
+        header "JavaEmbedding.h"
+        export *
+    }
+    module WebKit {
+        header "WebKit.h"
+        export *
+    }
+    module InstantMessage {
+        header "InstantMessage.h"
+        export *
+    }
+    module System {
+        header "System.h"
+        export *
+    }
+    module PCSC {
+        header "PCSC.h"
+        export *
+    }
+    module TWAIN {
+        header "TWAIN.h"
+        export *
+    }
+    module AudioUnit {
+        header "AudioUnit.h"
+        export *
+    }
+    module AppleScriptKit {
+        header "AppleScriptKit.h"
+        export *
+    }
+    module XgridFoundation {
+        header "XgridFoundation.h"
+        export *
+    }
+    module OpenAL {
+        header "OpenAL.h"
+        export *
+    }
+    module SecurityFoundation {
+        header "SecurityFoundation.h"
+        export *
+    }
+    module ICADevices {
+        header "ICADevices.h"
+        export *
+    }
+    module CoreAudio {
+        header "CoreAudio.h"
+        export *
+    }
+    module Kerberos {
+        header "Kerberos.h"
+        export *
+    }
+    module CoreServices {
+        header "CoreServices.h"
+        export *
+        module WebServicesCore {
+            header "WebServicesCore.h"
+            export *
+        }
+        module CFNetwork {
+            header "CFNetwork.h"
+            export *
+        }
+        module Metadata {
+            header "Metadata.h"
+            export *
+        }
+        module OSServices {
+            header "OSServices.h"
+            export *
+        }
+        module CarbonCore {
+            header "CarbonCore.h"
+            export *
+        }
+    }
+    module CoreVideo {
+        header "CoreVideo.h"
+        export *
+    }
+    module Security {
+        header "Security.h"
+        export *
+    }
+    module AppleShareClientCore {
+        header "AppleShareClientCore.h"
+        export *
+    }
+    module Carbon {
+        header "Carbon.h"
+        export *
+        module Print {
+            header "Print.h"
+            export *
+        }
+        module OpenScripting {
+            header "OpenScripting.h"
+            export *
+        }
+        module SecurityHI {
+            header "SecurityHI.h"
+            export *
+        }
+        module Help {
+            header "Help.h"
+            export *
+        }
+        module CommonPanels {
+            header "CommonPanels.h"
+            export *
+        }
+        module CarbonSound {
+            header "CarbonSound.h"
+            export *
+        }
+        module SpeechRecognition {
+            header "SpeechRecognition.h"
+            export *
+        }
+        module ImageCapture {
+            header "ImageCapture.h"
+            export *
+        }
+        module HIToolbox {
+            header "HIToolbox.h"
+            export *
+        }
+        module Ink {
+            header "Ink.h"
+            export *
+        }
+        module NavigationServices {
+            header "NavigationServices.h"
+            export *
+        }
+        module HTMLRendering {
+            header "HTMLRendering.h"
+            export *
+        }
+    }
+    module AppleShareClient {
+        header "AppleShareClient.h"
+        export *
+    }
+    module Quartz {
+        header "Quartz.h"
+        export *
+        module PDFKit {
+            header "PDFKit.h"
+            export *
+        }
+        module QuartzComposer {
+            header "QuartzComposer.h"
+            export *
+        }
+    }
+    module CoreAudioKit {
+        header "CoreAudioKit.h"
+        export *
+    }
+    module CoreMIDIServer {
+        header "CoreMIDIServer.h"
+        export *
+    }
+    module DiscRecording {
+        header "DiscRecording.h"
+        export *
+        module DiscRecordingContent {
+            header "DiscRecordingContent.h"
+            export *
+        }
+        module DiscRecordingEngine {
+            header "DiscRecordingEngine.h"
+            export *
+        }
+    }
+    module Automator {
+        header "Automator.h"
+        export *
+    }
+    module DiscRecordingUI {
+        header "DiscRecordingUI.h"
+        export *
+    }
+    module DrawSprocket {
+        header "DrawSprocket.h"
+        export *
+    }
+    module Foundation {
+        header "Foundation.h"
+        export *
+    }
+    module SecurityInterface {
+        header "SecurityInterface.h"
+        export *
+    }
+    module objc {
+        header "objc.h"
+        export *
+    }
+    module QTKit {
+        header "QTKit.h"
+        export *
+    }
+    module FWAUserLib {
+        header "FWAUserLib.h"
+        export *
+    }
+    module SyncServices {
+        header "SyncServices.h"
+        export *
+    }
+    module Cocoa {
+        header "Cocoa.h"
+        export *
+    }
+    module Accelerate {
+        header "Accelerate.h"
+        export *
+        module vImage {
+            header "vImage.h"
+            export *
+        }
+    }
+    module CoreFoundation {
+        header "CoreFoundation.h"
+        export *
+    }
+}

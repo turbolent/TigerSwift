@@ -1,0 +1,13 @@
+AFPChangePassword
+AFPCreateSVEFromAddress
+AFPDeleteSharedVolumesEnumerator
+AFPGetIndexedSharedVolume
+AFPGetLoginInformation
+AFPGetMountAtStartup
+AFPGetSharedVolumesCount
+AFPLibraryPresent
+AFPLibraryVersion
+AFPMountSharedVolume
+AFPMountSharedVolumeOnMP
+AFPSetMountAtStartup
+AFPSortSharedVolumes

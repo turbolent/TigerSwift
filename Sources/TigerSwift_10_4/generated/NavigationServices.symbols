@@ -1,0 +1,15 @@
+NavCreatePreview
+NavCustomControl
+NavDialogDispose
+NavDialogGetSaveFileExtensionHidden
+NavDialogGetSaveFileName
+NavDialogGetUserAction
+NavDialogGetWindow
+NavDialogRun
+NavDialogSetFilterTypeIdentifiers
+NavDialogSetSaveFileExtensionHidden
+NavDialogSetSaveFileName
+NavLibraryVersion
+NavLoad
+NavServicesCanRun
+NavUnload

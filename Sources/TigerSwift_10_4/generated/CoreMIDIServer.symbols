@@ -1,0 +1,11 @@
+MIDIDeviceCreate
+MIDIDeviceDispose
+MIDIDeviceListAddDevice
+MIDIDeviceListDispose
+MIDIDeviceListGetDevice
+MIDIDeviceListGetNumberOfDevices
+MIDIDriverEnableMonitoring
+MIDIEndpointGetRefCons
+MIDIEndpointSetRefCons
+MIDIGetDriverDeviceList
+MIDIGetDriverIORunLoop
