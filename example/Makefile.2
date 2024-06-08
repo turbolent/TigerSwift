@@ -1,0 +1,17 @@
+W2C2_DIR ?=
+W2C2 ?= $(W2C2_DIR)/w2c2/w2c2
+CFLAGS = -O0 -g -I$(W2C2_DIR)/w2c2
+LDFLAGS += -framework AppKit
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+%.o: %.m
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+app: app.o bridge.o main.o
+	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
+
+.PHONY: clean
+clean:
+	rm -rf *.o app

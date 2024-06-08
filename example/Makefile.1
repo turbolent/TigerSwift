@@ -1,0 +1,18 @@
+W2C2_DIR ?=
+W2C2 ?= $(W2C2_DIR)/w2c2/w2c2
+CFLAGS = -I$(W2C2_DIR)/w2c2
+TRIPLE ?= wasm32-unknown-none-wasm
+
+app.c: app.wasm
+	$(W2C2) $^ $@
+
+.build/$(TRIPLE)/release/App.wasm: $(wildcard Sources/**/*) Package.swift ../Sources/TigerSwift_10_4/generated/symbols
+	swift build -c release --triple $(TRIPLE) --product App
+
+app.wasm: .build/$(TRIPLE)/release/App.wasm
+	$ wasm-opt --strip-dwarf -O2 -o $@ $<
+	cp $< $@
+
+.PHONY: clean
+clean:
+	rm -rf .build app.c app.h app.wasm

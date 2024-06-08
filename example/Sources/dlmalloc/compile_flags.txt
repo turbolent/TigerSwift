@@ -1,0 +1,10 @@
+-DLACKS_TIME_H
+-DLACKS_SYS_TYPES_H
+-DLACKS_STDLIB_H
+-DLACKS_STRING_H
+-DLACKS_SYS_MMAN_H
+-DLACKS_FCNTL_H
+-DNO_MALLOC_STATS=1
+-D__wasilibc_unmodified_upstream
+-target
+wasm32-unknown-none-wasm
