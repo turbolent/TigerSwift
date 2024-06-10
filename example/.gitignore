@@ -11,4 +11,5 @@ DerivedData/
 *.wasm
 app.c
 app.h
-
+*.o
+app

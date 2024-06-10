@@ -1,4 +1,7 @@
-W2C2_DIR ?=
+ifndef W2C2_DIR
+	$(error set W2C2_DIR to the directory containing w2c2)
+endif
+
 W2C2 ?= $(W2C2_DIR)/w2c2/w2c2
 CFLAGS = -I$(W2C2_DIR)/w2c2
 TRIPLE ?= wasm32-unknown-none-wasm
